@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="header">
+
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Gracias por ayudarnos a realizar este proyecto</p>
+
+
+    </header>
+    <main>
+        <div>
+
+            <form action="#" id="survey-form">
+
+
+                <label for="Name" id="name-label">Name</label>
+                <input type="text" id="name" required placeholder="Nombre"><br>
+
+
+                <label for="Email" id="email-label">Email</label>
+                <input type="email" name="email" id="email" required placeholder="Email"><br>
+
+
+                <label for="Edad" id="number-label">Edad</label>
+                <input type="number" id="number" required min="18" max="120" placeholder="Edad"><br>
+                <hr>
+
+                <!-- Comienzo de Selector de opciones -->
+                <div>
+                    <h5 id="h5-dropdown">Elija la opción que más se ajusta a su actual actividad</h5>
+                </div>
+                <select name="seleccion" id="dropdown">
+                    <option value="opcion1">Seleccione un rol</option>
+                    <option value="opcion2">Estudiante</option>
+                    <option value="option3">Estudia y trabaja</option>
+                    <option value="option4">Profesor</option>
+                    <option value="option5">Profesor e Investigador</option>
+                    <option value="option6">Investigador Asociado</option>
+                </select>
+                <hr>
+
+                <!-- Comienzo de botones de radio -->
+                <h5 id="h5-botones-radio">Marque el nivel de sus competencias</h5>
+                <div class="col-md-4">
+                    <input name="radio" type="radio" value="primero"><label for="primero">Primero</label>
+
+
+                </div>
+                <div class="col-md-4">
+                    <input name="radio" type="radio" value="segundo"><label for="segundo">Segundo</label>
+                </div>
+                <div class="col-md-4">
+                    <input name="radio" type="radio" value="tercero"><label for="tercero">Tercero</label>
+                </div>
+
+                <hr>
+
+                <!-- Comienzo de checkboxes -->
+
+                <h5 id="h5-checkbox">Elija una de las siguientes opciones</h5>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-1">
+                            <input type="checkbox" name="actividad" id="operador" value="operadorpc">
+                        </div>
+                        <div class="col-md-10">
+                            <label id="checkbox-label" for="actividad">Operador de pc</label>
+                        </div>
+                        <div class="col-md-1">
+                            <input type="checkbox" name="reparador" id="Reparador" value="reparador">
+                        </div>
+                        <div class="col-md-10">
+                            <label for="reparador">Reparador de pc</label>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+
+                <!-- Comienzo de text Area -->
+
+                <h5 id="h5-text-area">Dejenos su comentario</h5><br>
+                <textarea name="AteaTexto" id="text-area" cols="30" rows="5"></textarea>
+                <p id="comentarioFinal">Tus comentarios serán consignados a un registro para futuras modificaciones
+                    orgánicas
+                    del Establecimiento. Gracias!</p>
+                <hr>
+
+                <button id="submit" class="btn btn-primary btn-block">Enviar</button>
+
+
+            </form>
+
+
+
+        </div>
+    </main>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>

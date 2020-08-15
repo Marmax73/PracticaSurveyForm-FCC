@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #8360c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+main{
+    width: 60%;
+    margin: auto;background-color: rgba(0, 0, 0,0.5);
+    padding: 5%;
+    border-radius: 7px;
+}
+header{
+    margin-top: 3em;
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+}
+
+#survey-form{
+    width: 100%;
+    
+}
+#form-body{
+    
+    width: 100%;
+    height: auto;
+   
+}
+
+/* from-body: niveles internos */
+#form-body input{
+    width: 90%;
+}
+#form-body label{
+    color: white;
+}
+
+#h5-dropdown{
+    color: white;
+    background-color: rgba(0, 0, 0,0.3);
+    padding: 8px;
+    border-radius: 4px;
+}
+
+
+#divHeader h1{
+    text-align: center;
+}
+#title{
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+#description{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+/* Botones de radio */
+#h5-botones-radio{
+    color: white;
+    background-color: rgba(0, 0, 0,0.3);
+    padding: 8px;
+    border-radius: 4px;
+}
+#h5-checkbox{
+    color: white;
+    background-color: rgba(0, 0, 0,0.3);
+    padding: 8px;
+    border-radius: 4px;
+}
+#checkbox-label{
+  
+    text-align: left;
+    width: 100%;
+}
+
+
+#h5-text-area{
+    color: white;
+    background-color: rgba(0, 0, 0,0.3);
+    padding: 8px;
+    border-radius: 4px;
+}
+
+/* Comentario del final */
+#comentarioFinal{
+    color: white;
+    background-color: rgba(0, 0, 0,0.3);
+    padding: 8px;
+    border-radius: 4px;
+}
+/* Responsive */
+@media only screen and (min-width: 710px){
+    header{width: 40%;}
+    main{width: 40%;}
+}
